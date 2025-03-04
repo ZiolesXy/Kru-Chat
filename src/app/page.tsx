@@ -53,14 +53,14 @@ export default function Home() {
 					</motion.h1>
 
 					<motion.h2 className="mb-6 text-white" variants={itemVariants}>
-						Iklan Efektif Tanpa Ribet dengan AI
+						Tulis Postingan Tanpa Ribet dengan AI
 					</motion.h2>
 
 					<motion.div className="mask mask-squircle relative h-48 w-48" variants={imageVariants}>
 						<Image
 							src="/logo.svg"
 							fill={true}
-							alt="Social Media"
+							alt="Kruu AI Logo"
 							className="h-full w-full object-cover"
 						/>
 					</motion.div>
@@ -69,13 +69,14 @@ export default function Home() {
 						Tingkatkan engagement dengan postingan menarik yang dibuat otomatis oleh AI
 					</motion.p>
 
-					<motion.button
+					<motion.a
 						className="btn btn-neutral btn-wide rounded-full"
 						variants={itemVariants}
 						whileHover={{ scale: 1.2, transition: { duration: 0.2 } }}
+						href="/app"
 					>
 						Try it Now
-					</motion.button>
+					</motion.a>
 				</motion.div>
 			</motion.div>
 
